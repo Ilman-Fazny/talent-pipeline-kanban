@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+dist/
+.env
+
+# Python virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Database
+recruitment-pipeline-api/candidates.db
+
+# OS files
+.DS_Store
+Thumbs.db
