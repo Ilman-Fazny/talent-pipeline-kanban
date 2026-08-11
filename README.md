@@ -48,6 +48,10 @@ This repository contains a full-stack implementation of a recruitment pipeline m
    uvicorn app.main:app --reload
    ```
 5. Confirm the server is running on `http://localhost:8000`. The interactive Swagger API documentation is available at `http://localhost:8000/docs`.
+6. Run the test suite:
+   ```bash
+   pytest
+   ```
 
 ### Frontend
 1. Open a new terminal window and navigate to the frontend directory:
@@ -83,8 +87,8 @@ This repository contains a full-stack implementation of a recruitment pipeline m
 
 ## Known Limitations / What I'd Add With More Time
 - Authentication and authorization are not implemented (out of scope per the brief).
-- Automated tests are currently absent.
+- Frontend test suite is currently absent (backend features a basic pytest suite).
 - The frontend does not expose a UI for pagination or sorting, though the backend fully supports both via query parameters.
 
 ## Demo
-[Placeholder line: link to screen recording or deployed URL, to be added]
+![Demo Screenshot](recruitment-pipeline-ui/public/Screenshot.png)
